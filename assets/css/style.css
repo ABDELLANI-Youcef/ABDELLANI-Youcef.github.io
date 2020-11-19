@@ -14,3 +14,14 @@ header {
 .text-theme-color {
   color: var(--color1);
 }
+
+.expose-project {
+  border: black solid 2px;
+  width: 369px;
+  height: 435px;
+}
+
+#about-me {
+  background-color: #262626;
+  padding: 130px 140px;
+}
