@@ -1,3 +1,31 @@
+:root {
+  --color1: #36b37f;
+}
+
 .navbar {
   padding: 0.5rem 100px;
+  background-color: #3e3c3c;
+}
+
+header {
+  background-color: #1c1a19;
+}
+
+.text-theme-color {
+  color: var(--color1);
+}
+
+.expose-project {
+  border: black solid 2px;
+  width: 369px;
+  height: 435px;
+}
+
+#about-me {
+  background-color: #262626;
+  padding: 130px 140px;
+}
+
+.skill ul {
+  list-style-type: none;
 }
