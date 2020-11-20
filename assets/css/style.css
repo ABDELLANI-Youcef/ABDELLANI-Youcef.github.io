@@ -2,6 +2,10 @@
   --color1: #36b37f;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .navbar {
   padding: 0.5rem 100px;
   background-color: #3e3c3c;
