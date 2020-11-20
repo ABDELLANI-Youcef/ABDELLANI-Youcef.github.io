@@ -61,8 +61,18 @@ header {
 }
 
 #projects {
-  height: 100vh;
+  min-height: 100vh;
   padding: 150px 170px;
+}
+
+#projects h2 {
+  font-family: 'Crete Round';
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.project-listing {
+  margin-top: 114px;
 }
 
 #project1 {
@@ -101,8 +111,8 @@ header {
 
 #about-me {
   background-color: #262626;
-  padding: 130px 140px;
-  height: 100vh;
+  padding: 130px 170px;
+  min-height: 90vh;
 }
 
 .skill ul {
