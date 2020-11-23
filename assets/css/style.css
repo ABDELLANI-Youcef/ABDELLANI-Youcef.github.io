@@ -6,9 +6,31 @@
   color: var(--color1);
 }
 
+.font-inter {
+  font-family: 'Inter';
+}
+
+.font-roboto {
+  font-family: 'Roboto';
+}
+
+.font-crete-round {
+  font-family: 'Crete Round';
+}
+
 .navbar {
   padding: 0.5rem 100px;
   background-color: #3e3c3c;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Crete Round';
+}
+
+p {
+  font-family: 'Inter';
 }
 
 header {
@@ -107,6 +129,7 @@ header {
   background: rgba(255, 255, 255, 0.24);
   font-size: 15px;
   margin-right: 12px;
+  font-family: 'Inter';
 }
 
 #about-me {
@@ -115,6 +138,34 @@ header {
   min-height: 90vh;
 }
 
+#about-me h2 {
+  font-size: 72px;
+  margin-bottom: 30px;
+}
+
+#about-me h3 {
+  font-weight: 700;
+  font-family: 'Inter';
+  font-size: 32px;
+}
+
 .skill ul {
   list-style-type: none;
+  font-family: 'Inter';
+  font-size: 22px;
+  font-weight: 400;
+}
+
+footer {
+  font-size: 20px;
+}
+
+footer div a {
+  color: #212529;
+  text-decoration: none;
+}
+
+footer div a:hover {
+  color: green;
+  text-decoration: none;
 }
