@@ -23,7 +23,7 @@
 }
 
 .navbar {
-  padding: 0.5rem 100px;
+  padding: 0.5rem 5vw;
   background-color: #3e3c3c;
 }
 
@@ -41,7 +41,7 @@ header {
   background-color: #1c1a19;
   position: relative;
   top: 56px;
-  padding: 100px;
+  padding: 5vw;
   min-height: 100vh;
 }
 
@@ -78,12 +78,11 @@ footer div a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 50px;
 }
 
 #introduction h1 {
   margin-bottom: 24px;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .general-presentation {
@@ -133,7 +132,7 @@ footer div a:hover {
   padding: 12px;
   justify-content: flex-end;
   border: black solid 2px;
-  width: 369px;
+  max-width: 369px;
   height: 435px;
 }
 
@@ -152,7 +151,7 @@ footer div a:hover {
 
 #about-me {
   background-color: #262626;
-  padding: 130px 170px;
+  padding: 130px 2vw;
   min-height: 90vh;
 }
 
@@ -176,4 +175,14 @@ footer div a:hover {
 
 footer {
   font-size: 20px;
+}
+
+@media only screen and (min-width: 576px) {
+  #introduction {
+    padding-left: 50px;
+  }
+
+  #introduction h1 {
+    font-size: 4rem;
+  }
 }
