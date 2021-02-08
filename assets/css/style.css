@@ -1,3 +1,27 @@
+/* global settings */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  min-width: 22rem;
+  min-height: 44rem;
+  display: block;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 22rem;
+  display: block;
+}
+
 :root {
   --color1: #36b37f;
 }
@@ -171,6 +195,43 @@ footer div a:hover {
   font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 400;
+}
+
+#contactme {
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 2vw;
+  border-bottom: 1px solid grey;
+}
+
+#contactme-intro {
+  font-family: 'Inter', sans-serif;
+  width: 455px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.form-group {
+  margin-left: auto;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+textarea {
+  border: 1px solid black;
+}
+
+#send {
+  background-color: var(--color1);
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
 }
 
 footer {
