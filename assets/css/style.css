@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   min-width: 22rem;
   display: block;
-} 
+}
 
 :root {
   --color1: #36b37f;
@@ -218,7 +218,7 @@ footer div a:hover {
 
 input {
   border: 1px solid black;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 textarea {
