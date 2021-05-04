@@ -1,0 +1,267 @@
+/* global settings */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  min-width: 22rem;
+  min-height: 44rem;
+  display: block;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 22rem;
+  display: block;
+}
+
+:root {
+  --color1: #36b37f;
+}
+
+.text-theme-color {
+  color: var(--color1);
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-crete-round {
+  font-family: 'Crete Round', serif;
+}
+
+.switch-to-theme-color:hover {
+  fill: var(--color1);
+}
+
+.navbar {
+  padding: 0.5rem 5vw;
+  background-color: #3e3c3c;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Crete Round', serif;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  background-color: #1c1a19;
+  position: relative;
+  top: 56px;
+  padding: 5vw;
+  min-height: 100vh;
+}
+
+#contacts {
+  left: 0;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+footer div a {
+  color: #212529;
+  text-decoration: none;
+}
+
+footer div a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+#contacts a {
+  color: white;
+  padding: 0 30px;
+}
+
+#contacts a:hover {
+  color: var(--color1);
+  text-decoration: none;
+}
+
+#introduction {
+  max-width: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#introduction h1 {
+  margin-bottom: 24px;
+  font-size: 3rem;
+}
+
+.general-presentation {
+  font-size: 32px;
+}
+
+.secondary-presentation {
+  font-size: 20px;
+}
+
+#projects {
+  min-height: 100vh;
+  padding: 150px 170px;
+}
+
+#projects h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.project-listing {
+  margin-top: 114px;
+}
+
+#project1 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url('../img/project1.png');
+  background-repeat: no-repeat;
+  background-size: 369px 435px;
+}
+
+#project2 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url('../img/project2.png');
+  background-repeat: no-repeat;
+  background-size: 800px 435px;
+}
+
+#project3 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url('../img/project3.jpg');
+  background-repeat: no-repeat;
+  background-size: 369px 435px;
+}
+
+#project4 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url('../img/project4.png');
+  background-repeat: no-repeat;
+  background-size: 369px 435px;
+}
+
+#project5 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url('../img/project5.png');
+  background-repeat: no-repeat;
+  background-size: 369px 435px;
+}
+
+#project6 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url('../img/project6.png');
+  background-repeat: no-repeat;
+  background-size: 369px 435px;
+}
+
+.expose-project {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: flex-end;
+  border: black solid 2px;
+  max-width: 369px;
+  height: 435px;
+}
+
+.languages {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.language {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  font-size: 15px;
+  margin-right: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+#about-me {
+  background-color: #262626;
+  padding: 130px 2vw;
+  min-height: 90vh;
+}
+
+#about-me h2 {
+  font-size: 72px;
+  margin-bottom: 30px;
+}
+
+#about-me h3 {
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+}
+
+.skill ul {
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#contactme {
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 2vw;
+  border-bottom: 1px solid grey;
+}
+
+#contactme-intro {
+  font-family: 'Inter', sans-serif;
+  width: 455px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.form-group {
+  margin-left: auto;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+textarea {
+  border: 1px solid black;
+}
+
+#send {
+  background-color: var(--color1);
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 576px) {
+  #introduction {
+    padding-left: 50px;
+  }
+
+  #introduction h1 {
+    font-size: 4rem;
+  }
+}
