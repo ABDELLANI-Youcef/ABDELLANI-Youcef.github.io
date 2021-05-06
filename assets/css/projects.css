@@ -29,7 +29,7 @@
   justify-content: flex-start;
   border: black solid 2px;
   width: 80vw;
-  max-height: 750px;
+  height: 750px;
   margin-bottom: 40px;
 }
 
@@ -82,7 +82,7 @@
     padding: 12px;
     justify-content: flex-start;
     border: black solid 2px;
-    max-width: 430px;
+    max-width: 450px;
     max-height: 650px;
   }
 

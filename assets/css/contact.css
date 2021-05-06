@@ -38,7 +38,7 @@ textarea {
 
 @media only screen and (min-width: 576px) {
   #contactme {
-    flex-direction: row; 
+    flex-direction: row;
   }
 
   #contactme-intro {
