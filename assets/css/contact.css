@@ -1,0 +1,51 @@
+#contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 2vw;
+  border-bottom: 1px solid grey;
+}
+
+#contactme-intro {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.form-group {
+  margin-left: auto;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+textarea {
+  border: 1px solid black;
+}
+
+#send {
+  background-color: var(--color1);
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 576px) {
+  #contactme {
+    flex-direction: row;
+  }
+
+  #contactme-intro {
+    width: 455px;
+  }
+
+  #send {
+    margin: 0;
+  }
+}
