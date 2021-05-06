@@ -1,0 +1,68 @@
+#projects {
+  min-height: 100vh;
+  padding: 150px 5vh;
+}
+
+#projects h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.project-listing {
+  margin-top: 114px;
+}
+
+#project1 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+}
+
+#project2 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+}
+
+#project3 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+}
+
+#project4 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+}
+
+#project5 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+}
+
+#project6 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+}
+
+.project-image {
+  max-width: 400px;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.expose-project {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: flex-start;
+  border: black solid 2px;
+  max-width: 430px;
+  max-height: 650px;
+}
+
+.languages {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.language {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  font-size: 15px;
+  margin-right: 12px;
+  font-family: 'Inter', sans-serif;
+}
