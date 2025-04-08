@@ -21,3 +21,17 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
